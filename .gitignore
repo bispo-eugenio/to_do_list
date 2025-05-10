@@ -1,0 +1,54 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# PyCharm
+# =========================
+.idea/
+*.iml
+
+# =========================
+# VSCode (caso use ocasionalmente)
+# =========================
+.vscode/
+
+# =========================
+# Sistema Operacional
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Arquivos temporários/Logs
+# =========================
+*.log
+*.swp
+*.tmp
+
+# =========================
+# Arquivos de exportação
+# =========================
+*.csv
+*.xls
+*.parquet
+*.feather
+*.zip
+*.tar.gz
+
+# =========================
+# Arquivos ocultos desnecessários
+# =========================
+*.env
+*.bak
