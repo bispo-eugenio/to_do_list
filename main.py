@@ -11,10 +11,11 @@ if __name__ == "__main__":
     app = QApplication(argv)
     window = MainWindow()
     display = Display()
-    buttons_layout = LayoutVButton()
-    list_todo = ListItem()
+    list_to_do = ListItem()
     #Configurações
-    window.layout_h_box.addWidget(list_todo)
+    app.setStyle("Fusion")
+    buttons_layout = LayoutVButton(display=display, list_item=list_to_do)
+    window.layout_h_box.addWidget(list_to_do)
     window.layout_h_box.addWidget(display,1,0)
     window.layout_h_box.addLayout(buttons_layout,0,1)
     #Execuções
