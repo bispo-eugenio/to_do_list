@@ -9,6 +9,10 @@ IMAG_ADD = FIlE_DIC / "adicionar.ico"
 IMAG_DEL =FIlE_DIC / "excluir.ico"
 IMAG_UPD =FIlE_DIC / "atualizar.ico"
 
+#====================Margem====================
+
+MARGIN_TEXT = 4
+
 #====================Tamanho====================
 
 SMALL_SIZE = 25
@@ -31,3 +35,8 @@ B_TERTIARY_COLOR = "#2874a6"
 R_PRIMARY_COLOR = "#e74c3c"
 R_SECONDARY_COLOR = "#cb4335"
 R_TERTIARY_COLOR = "#b03a2e"
+
+#========== LINE_EDIT E LISTA ==========
+
+BACKGROUN_LINE_EDIT_OR_LIST = "#9B9B9B"
+BORDER_LINE_EDIT_OR_LIST = "#525252"
